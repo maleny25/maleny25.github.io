@@ -7,9 +7,47 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Hello, World!</h1>
-        <p>This is a basic webpage example.</p>
+    <header>
+        <h1 class="name">Maleny Ruiz</h1>
+        <img src="maleny.jpg" alt="Photo of Maleny Ruiz">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="https://github.com/maleny25">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/maleny-ruiz">LinkedIn</a></li>
+        </ul>
+    </nav>
+    
+    <div class="info">
+        <section id="education">
+            <h2>Education</h2>
+            <div class="job">
+                <h3>University of California Berkeley <span class="year"> (2019-2023)</span></h3>
+                <ul>
+                    <li>Bachelor of Arts Double Major in Computer Science & Film </li>
+                    <li>CS Scholars</li>
+                    <li>Hermanas Unidas</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>DoorDash Software Engineer</h3>
+                <p>Incoming New Grad Software Engineer</p>
+            </div>
+            <div class="job">
+                <h3>LinkedIn Software Engineer Intern</h3>
+                <p>Created a mechanism for the Job Ingestion team to categorize source failures and decrease the time needed for engineers to fix these failures.
+                    Added a runtime configuration to a Scrapy spider to get scrape details for sources.
+                    Wrote a Python script to run a spider and retrieve scrape details for sources.
+                    Created a Hadoop project using Scala and Spark SQL to categorize source failures.
+                    Analyzed results for accuracy to verify the categories and to see how this project can be expanded in the future to help fix failed sources.
+                    </p>
+            </div>
+        </section>
     </div>
 </body>
 </html>
